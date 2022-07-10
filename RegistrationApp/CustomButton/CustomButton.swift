@@ -20,7 +20,7 @@ class CustomButton: UIButton {
     }
     
     func pinkButton() {
-        layer.cornerRadius = 25
+        layer.cornerRadius = 15
         clipsToBounds = true
     }
     
