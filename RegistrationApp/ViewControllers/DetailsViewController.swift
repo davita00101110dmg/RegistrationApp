@@ -17,8 +17,6 @@ class DetailsViewController: UIViewController {
     
     var username: String?
     var email: String?
-    private var isBottomSheetShowed = false
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +32,6 @@ class DetailsViewController: UIViewController {
         bottomSheet.sheetPresentationController?.preferredCornerRadius = 40
         bottomSheet.sheetPresentationController?.prefersGrabberVisible = true
         present(bottomSheet, animated: true)
-        
         
     }
     
